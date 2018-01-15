@@ -2,7 +2,8 @@ import jm.util.*;
 
 public final class ReadAudio {
 
-	public static void main(String[] args) {
+	public void read() {
+		
 		float[] data = Read.audio("res/harpeggio.wav"); // Put the sample data into a floating point array
 		
 		for (int i = 0; i < data.length; i+=10) {
