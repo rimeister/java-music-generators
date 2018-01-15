@@ -11,7 +11,11 @@ public final class ReadAudio {
 				System.out.print(" ");
 			}
 
-			System.out.println("o");
+			if (i%20 == 0) {
+				System.out.println("o");
+			} else {
+				System.out.println("*");
+			}
 			
 		}
 		
